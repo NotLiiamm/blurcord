@@ -1,0 +1,16 @@
+:root {
+
+ --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
+}
+
+.field__9e8e2 > div > div > div {
+  filter: blur(5px);
+}
+.field__9e8e2 > div > div > div:hover {
+  filter: blur(0);
+}
